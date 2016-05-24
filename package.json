@@ -1,18 +1,18 @@
 {
-  "name": "jpush-sdk",
-  "version": "3.2.1",
-  "description": "JPush's officially supported Node.js client library.",
+  "name": "mpush-sdk",
+  "version": "1.0.0",
+  "description": "Midea Push's third part supported Node.js client library fork from jpush-sdk@3.2.1.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -t 50000 --reporter spec"
   },
   "keywords": [
-    "jpush",
-    "JPush API",
+    "mpush",
+    "MPush API",
     "push",
-    "极光推送"
+    "美的推送"
   ],
-  "author": "jpush",
+  "author": "owen",
   "license": "MIT",
   "dependencies": {
     "request": "~2.27.0",
@@ -24,13 +24,13 @@
     "faker-zh-cn": "~0.5.8",
     "assert": "1.1.2"
   },
-  "homepage": "https://www.jpush.cn/",
+  "homepage": "http://push.midea.com:8091",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpush/jpush-api-nodejs-client.git"
+    "url": "git@github.com:beesui/jpush-api-nodejs-client.git"
   },
   "bugs": {
-    "url": "https://github.com/jpush/jpush-api-nodejs-client/issues"
+    "url": "https://github.com/beesui/jpush-api-nodejs-client/issues"
   },
   "directories": {
     "doc": "doc",
